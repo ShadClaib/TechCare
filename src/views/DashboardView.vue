@@ -175,8 +175,7 @@ onMounted(async () => {
                       class="w-[.875rem] h-[.875rem] bg-[#E66FD2] border border-white rounded-full inline-block">&nbsp;</i>
                     <span class="font-medium">Systolic</span>
                   </div>
-                  <span class="block text-xl font-semibold">{{ dataPointSelected?.blood_pressure.systolic.value
-                    }}</span>
+                  <span class="block text-xl font-semibold">{{ dataPointSelected?.blood_pressure.systolic.value }}</span>
                   <span class="block mt-3">{{ dataPointSelected?.blood_pressure.systolic.levels }}</span>
                 </div>
                 <hr class="border-[#cbc8d4] my-4" />
@@ -185,8 +184,7 @@ onMounted(async () => {
                       class="w-[.875rem] h-[.875rem] bg-[#8C6FE6] border border-white rounded-full inline-block">&nbsp;</i>
                     <span class="font-medium">Diastolic</span>
                   </div>
-                  <span class="block text-xl font-semibold">{{ dataPointSelected?.blood_pressure.diastolic.value
-                    }}</span>
+                  <span class="block text-xl font-semibold">{{ dataPointSelected?.blood_pressure.diastolic.value }}</span>
                   <span class="block mt-3">{{ dataPointSelected?.blood_pressure.diastolic.levels }}</span>
                 </div>
               </div>
